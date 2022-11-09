@@ -1,0 +1,124 @@
+.pContent {
+    position: absolute;
+    width: 1440px;
+    height: 684px;
+    left: 0px;
+    top: 175px;
+    background: #242230;
+    box-shadow: 0px -26px 1px rgba(182, 156, 247, 0.25), 0px 25px 1px #B69CF7;
+}
+
+.pContent_items {
+    position: absolute;
+    width: 1160px;
+    height: 351px;
+    left: 135px;
+    top: 166.5px;
+}
+
+.pContent_items_1 {
+    width: 351px;
+    height: 351px;
+    background: url(Tinkercad.png);
+    border-radius: 85px;
+}
+
+.pContent_items_2 {
+    position: absolute;
+    width: 653px;
+    height: 161px;
+    left: 477px;
+    top: 63px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pContent_items_3 {
+    position: absolute;
+    color: rgba(182, 156, 247, 1);
+    top: 163px;
+}
+
+.pContent_items_4 {
+    position: absolute;
+    width: 558px;
+    height: 99px;
+    left: 571px;
+    top: 200px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #7E7B8E;
+}
+
+.Arduino {
+    position: absolute;
+    width: 1440px;
+    height: 1099px;
+    left: 0px;
+    top: 883.5px;
+    background: url(Arduino.png);
+    mix-blend-mode: normal;
+}
+
+.Arduino_info {
+    position: absolute;
+    width: 515px;
+    height: 515px;
+    left: 135px;
+    top: 278px;
+    background: #B69CF7;
+    border-radius: 10px;
+}
+
+.Arduino_info2 {
+    position: absolute;
+    width: 488px;
+    height: 486px;
+    left: 27px;
+    background: #554B79;
+    border-radius: 10px 200px 10px 10px;
+}
+
+.Arduino_info2 h1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 236px;
+    height: 76px;
+    left: 27px;
+    top: 14px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    background-image: linear-gradient(45deg, rgba(228, 233, 252, 1), rgba(182, 156, 247, 1) 40%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.Arduino_info2 .p2 {
+    position: absolute;
+    width: 406px;
+    height: 291px;
+    left: 27px;
+    top: 130px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

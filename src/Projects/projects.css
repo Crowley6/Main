@@ -1,19 +1,21 @@
 .pContent {
-    position: absolute;
-    width: 1440px;
+    position: relative;
     min-width: 100%;
     height: 684px;
     left: 0px;
     top: 1000px;
     background: #242230;
     box-shadow: 0px -26px 1px rgba(182, 156, 247, 0.25), 0px 25px 1px #B69CF7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .pContent_items {
-    position: absolute;
+    position: relative;
     width: 1160px;
     height: 351px;
-    left: 135px;
     top: 166.5px;
 }
 
@@ -133,19 +135,17 @@
 .PItems {
     position: absolute;
     min-width: 100%;
-    height: 1151px;
+    height: 1451px;
     left: 0px;
     top: 2825px;
     background: #554B79;
     box-shadow: 0px -25px 1px #363050;
+    
 }
 
 .PItems a {
-    position: sticky;
-    min-width: 100%;
-    height: 57px;
-    left: 500px;
-    top: 165px;
+    position: relative;
+    top: 125px;
     font-family: 'Abhaya Libre ExtraBold';
     font-style: normal;
     font-weight: 800;
@@ -153,55 +153,53 @@
     line-height: 57px;
     text-align: center;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .PItems div {
-    position: sticky;
-    width: 1210px;
+    position: relative;
+    min-width: 100%;
     height: 790px;
-    left: 95px;
-    top: 75px;
+    left: 16px;
+    top: 150px;
     filter: drop-shadow(0px 10px 6px #242230);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .imgPI {
-    position: sticky;
+    position: relative;
     width: 370px;
     height: 360px;
     border-radius: 10px;
+    margin: 15px;
 }
 
 .proj1 {
     background-image: url(./proj1.png);
-    left: 95px;
-    top: 350px;
 }
 
 .proj2 {
     background-image: url(./proj2.png);
-    left: 95px;
-    top: 350px;
-    left: 535px;
+
 }
 
 .proj3 {
     background-image: url(./proj3.png);
-    left: 935px;
-    top: 350px;
 }
 
 .proj4 {
     background-image: url(./proj4.png);
-    left: 115px;
-    top: 900px;
     width: 570px;
     height: 360px;
 }
 
 .proj5 {
     background-image: url(./proj5.png);
-    left: 715px;
-    top: 900px;
     width: 570px;
     height: 360px;
 }
@@ -211,7 +209,7 @@
     min-width: 100%;
     height: 484px;
     left: 0px;
-    top: 3975px;
+    top: 4275px;
     background: #242230;
 }
 

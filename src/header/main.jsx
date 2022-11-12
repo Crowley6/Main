@@ -2,16 +2,16 @@ import './../App.css';
 const Main = () => {
   return (
     <div>
+      <div className='MainContent'>
+        <div className='content'>
+          <a>ИНЖЕНЕРИЯ</a>
+          <p>Платформа выделяющая аспекты <br />
+            проектирования и реализацию схем на <br />
+            практике с помощью конструктора <br />
 
-
-      <div className='content'>
-        <a>ИНЖЕНЕРИЯ</a>
-        <p>Платформа выделяющая аспекты <br />
-          проектирования и реализацию схем на <br />
-          практике с помощью конструктора <br />
-
-        </p>
-        <p className='content_p2'>ARDUINO</p>
+          </p>
+          <p className='content_p2'>ARDUINO</p>
+        </div>
       </div>
       <div>
         <div className="pContent">

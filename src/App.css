@@ -109,6 +109,11 @@
   text-decoration: none;
 }
 
+.MainContent{
+  display: flex;
+  justify-content: center;
+}
+
 .content {
   position: absolute;
   width: 420px;

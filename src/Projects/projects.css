@@ -1,15 +1,15 @@
 .pContent {
     position: relative;
-    min-width: 100%;
+    width: 100%;
     height: 684px;
     left: 0px;
-    top: 1000px;
+    top: 316px;
     background: #242230;
     box-shadow: 0px -26px 1px rgba(182, 156, 247, 0.25), 0px 25px 1px #B69CF7;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .pContent_items {
@@ -66,6 +66,7 @@
 .Arduino {
     position: absolute;
     min-width: 100%;
+    min-height: 100%;
     height: 1099px;
     left: 0px;
     top: 1708.5px;
@@ -73,7 +74,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     mix-blend-mode: normal;
 }
 
@@ -162,7 +163,6 @@
     position: relative;
     min-width: 100%;
     height: 790px;
-    left: 16px;
     top: 150px;
     filter: drop-shadow(0px 10px 6px #242230);
     display: flex;

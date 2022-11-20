@@ -37,6 +37,7 @@ const Main = () => {
         </div>
       </div>
       <div className='PItems'>
+
         <a>Примеры проектов</a>
         <div>
           <img className='proj1 imgPI' />
@@ -44,11 +45,12 @@ const Main = () => {
           <img className='proj3 imgPI' />
           <img className='proj4 imgPI' />
           <img className='proj5 imgPI' />
+          <div className='footer'>
+            <div className='footer_img'></div>
+          </div>
         </div>
       </div>
-      <div className='footer'>
-        <div className='footer_img'></div>
-      </div>
+
     </div>
   );
 }

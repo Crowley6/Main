@@ -68,7 +68,6 @@
     min-width: 100%;
     min-height: 100%;
     height: 1099px;
-    left: 0px;
     top: 1708.5px;
     background: url(Arduino.png);
     background-attachment: fixed;
@@ -79,7 +78,7 @@
 }
 
 .Arduino_info {
-    position: absolute;
+    position: sticky;
     width: 515px;
     height: 515px;
     left: 135px;
@@ -134,11 +133,12 @@
 
 
 .PItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     min-width: 100%;
-    height: 1451px;
-    left: 0px;
-    top: 2825px;
+    top: 2830px;
     background: #554B79;
     box-shadow: 0px -25px 1px #363050;
     
@@ -146,7 +146,7 @@
 
 .PItems a {
     position: relative;
-    top: 125px;
+    top: 75px;
     font-family: 'Abhaya Libre ExtraBold';
     font-style: normal;
     font-weight: 800;
@@ -162,13 +162,14 @@
 .PItems div {
     position: relative;
     min-width: 100%;
-    height: 790px;
-    top: 150px;
+    min-height: 100%;
+    top: 125px;
     filter: drop-shadow(0px 10px 6px #242230);
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .imgPI {
@@ -204,23 +205,10 @@
     height: 360px;
 }
 
-.footer {
+.footer_img{
     position: absolute;
-    min-width: 100%;
-    height: 484px;
-    left: 0px;
-    top: 4275px;
-    background: #242230;
-}
-
-.footer_img {
-    position: sticky;
     width: 80%;
     height: 484px;
-    left: 0px;
-    top: 0px;
-    
-    
-    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(footerImg.png);
+    background: linear-gradient(269.99deg, #242230 10.47%, rgba(36, 34, 48, 0) 200.99%), url(footerImg.png);
     background-repeat: no-repeat;
 }

@@ -28,7 +28,7 @@
 
 .header_1 {
   position: relative;
-  width: 45%;
+  width: 50%;
   display: flex;
 }
 
@@ -79,7 +79,7 @@
   font-family: 'Abhaya Libre ExtraBold';
 
   position: absolute;
-  left: 6.5%;
+  left: 7.5%;
   top: 441px;
 }
 

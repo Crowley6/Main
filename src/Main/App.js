@@ -2,7 +2,8 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Main from './../header/main';
 import Projects from './../Projects/projects';
 
-function App() {
+function App(props) {
+  
   return (
     <BrowserRouter>
       <div className='body'>
@@ -22,7 +23,7 @@ function App() {
 
         <Routes>
           <Route path='/Main' element={<Main />} />
-          <Route path='/Projects' element={<Projects />} />
+          <Route path='/Projects' element={<Projects Backend={props.Backend.project} h1a={props.h1a.h1a} pushProject={props.pushProject} onChangeFunc={props.onChangeFunc} deleteProject={props.deleteProject} />} />
           <Route path='/AboutPlatform'/>
         </Routes>
       </div>

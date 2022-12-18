@@ -1,6 +1,7 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Main from './../header/main';
 import Projects from './../Projects/projects';
+import AboutP from './../AboutProject/AboutP';
 
 function App(props) {
   
@@ -17,14 +18,14 @@ function App(props) {
           <div className='header_2'>
             <a href='/Main' className='body_h_2_item'>Главная</a>
             <a href='/Projects' className='body_h_2_item'>Проекты</a>
-            <a href='/AboutPlatform' className='body_h_2_item'>О Платформе</a>
+            <a href='/AboutP' className='body_h_2_item'>О Платформе</a>
           </div>
         </div>
 
         <Routes>
           <Route path='/Main' element={<Main />} />
           <Route path='/Projects' element={<Projects Backend={props.Backend.project} h1a={props.h1a.h1a} pushProject={props.pushProject} onChangeFunc={props.onChangeFunc} deleteProject={props.deleteProject} />} />
-          <Route path='/AboutPlatform'/>
+          <Route path='/AboutP' element={<AboutP />}/>
         </Routes>
       </div>
     </BrowserRouter>

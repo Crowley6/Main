@@ -18,7 +18,7 @@ const Main = () => {
           <div className='pContent_items'>
             <div className='pContent_items_1'></div>
             <a className='pContent_items_2'>Все проекты были реализованы в среде моделирования </a>
-            <a className='pContent_items_2 pContent_items_3'>TinkerCad</a>
+            <a className='pContent_items_3'>TinkerCad</a>
             <p className='pContent_items_4'> Бесплатное веб-приложение для 3D проектирования, <br />
               удивительно простой и одновременно мощный <br /> эмулятор, с которого можно начинать обучение
               <br /> электронике и робототехнике</p>

@@ -4,7 +4,7 @@ import './projects.css';
 const Project = (props) => {
     return (
         <div className='Projects'>
-            <img className='ProjectsImg' />
+            <div className='ProjectsImg'></div> 
             <h1 className='ProjectsTextH1' >{props.ProjectsTextH1}</h1>
             <div className='ProjectsText'>{props.ProjectsText}</div>
             <button className='ProjectsButton'>Подробнее</button>
@@ -60,8 +60,8 @@ const Projects = (props) => {
                 </div>
                 <div className='AllProjects'>
                     {projectMap}
-                </div>
                 <div className='ProjectsFooter'></div>
+                </div>
             </div>
         </div>
     );

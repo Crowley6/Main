@@ -1,11 +1,12 @@
 .pContent {
     position: relative;
-    width: 100%;
+    width: 1160px;
+    min-width: 100%;
     height: 684px;
     left: 0px;
     top: 316px;
     background: #242230;
-    box-shadow: 0px -26px 1px rgba(182, 156, 247, 0.25), 0px 25px 1px #B69CF7;
+    box-shadow: 0px -25px 0px #D6D2FA, 0px 25px 0px #D6D2FA;
     display: flex;
     justify-content: center;
 }
@@ -16,7 +17,8 @@
     height: 351px;
     top: 166.5px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .pContent_items_1 {
@@ -44,8 +46,18 @@
 
 .pContent_items_3 {
     position: absolute;
-    color: rgba(182, 156, 247, 1);
+    width: 653px;
+    height: 161px;
+    left: 477px;
     top: 163px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(182, 156, 247, 1);
 }
 
 .pContent_items_4 {
@@ -66,6 +78,7 @@
 .Arduino {
     position: absolute;
     min-width: 100%;
+    width: 1160px;
     min-height: 100%;
     height: 1099px;
     top: 1708.5px;
@@ -83,7 +96,7 @@
     height: 515px;
     left: 135px;
     top: 278px;
-    background: #B69CF7;
+    background: #D6D2FA;
     border-radius: 10px;
 }
 
@@ -138,9 +151,10 @@
     justify-content: center;
     position: absolute;
     min-width: 100%;
+    width: 1160px;
     top: 2830px;
     background: #554B79;
-    box-shadow: 0px -25px 1px #363050;
+    box-shadow: 0px -25px 1px #D6D2FA;
 
 }
 
@@ -237,8 +251,6 @@
 
 .ProjectsBodyTextH1 {
     position: absolute;
-    width: 698px;
-    height: 100px;
     left: 130px;
     top: 377px;
     font-family: 'Abhaya Libre ExtraBold';
@@ -256,7 +268,6 @@
 .ProjectsBodyText {
     position: absolute;
     width: 657px;
-    height: 120px;
     left: 135px;
     top: 477px;
     font-family: 'Abhaya Libre Medium';
@@ -272,16 +283,13 @@
 .ProjectsBodyText2 {
     position: absolute;
     width: 540px;
-    height: 216px;
     left: 130px;
     top: 580px;
-
     font-family: 'Abhaya Libre Medium';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
     color: #363050;
 
 }
@@ -289,7 +297,6 @@
 .AllProjects {
     position: relative;
     min-width: 100%;
-    height: 3207px;
     left: 0px;
     top: 1024px;
     background: #554B79;
@@ -297,25 +304,29 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .Projects {
-    margin: 5% 0;
     width: 470px;
     height: 660px;
-    background: linear-gradient(180deg, #242230 0%, #9C8FC8 100%);
+    background: linear-gradient(180deg, #242230 0%, #D6D2FA 100%);
     box-shadow: 10px 10px 40px rgba(36, 34, 48, 0.67);
+    border-radius: 50px;
+    color: rgba(36, 34, 48, 1);
+    margin: 40px 10px;
+    box-sizing: border-box;
 }
 
 .ProjectsImg {
-    width: 470px;
-    height: 378px;
+    width: 406.49px;
+    height: 347px;
     background: url(ProjectImg.svg);
+    margin: 5% 6%;
+    border-radius: 15px;
 }
 
 .ProjectsTextH1 {
-    padding: 3.5%;
+    padding: 1.5% 3.5%;
     width: 298px;
     height: 24px;
     font-family: 'Abhaya Libre Medium';
@@ -323,11 +334,10 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
 }
 
 .ProjectsText {
-    padding: 3.5%;
+    padding: 1.5% 3.5%;
     width: 418px;
     height: 77px;
     font-family: 'Abhaya Libre Medium';
@@ -335,7 +345,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
 }
 
 .ProjectsButton {
@@ -343,7 +352,7 @@
     width: 150px;
     height: 50px;
     background: linear-gradient(180deg, #9C8FC8 0%, #242230 100%);
-    border-radius: 50px;
+    border-radius: 15px;
     font-family: 'Abhaya Libre ExtraBold';
     font-style: normal;
     font-weight: 800;
@@ -353,12 +362,11 @@
 }
 
 .ProjectsFooter {
-    position: absolute;
+    position: relative;
     min-width: 100%;
     width: 1440px;
     height: 484px;
     left: 0px;
-    top: 4231px;
     background: #242230;
     background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(footerImg.svg);
     background-repeat: no-repeat;

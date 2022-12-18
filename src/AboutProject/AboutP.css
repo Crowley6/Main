@@ -1,0 +1,196 @@
+.About1 {
+    position: absolute;
+    width: 1160px;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    top: 304px;
+}
+
+.AboutContent {
+    position: relative;
+    width: 370px;
+    height: 181px;
+    top: 169px;
+}
+
+.Ard {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    background: radial-gradient(77.08% 3021.55% at 5.56% 49.28%, #E4E9FC 0%, #B69CF7 89.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.ArdOpisanie {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7E7B8E;
+}
+
+.claxes {
+    position: relative;
+    width: 655.99px;
+    height: 610.06px;
+    background-image: url(claxes.svg);
+}
+
+.AboutBack {
+    position: relative;
+    background: url(AboutBackImg.svg);
+    width: 1440px;
+    height: 900px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    left: 0px;
+    top: 624px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.AboutBackInfo {
+    position: relative;
+    width: 459px;
+    height: 100%;
+    padding: 132px 0;
+    box-sizing: border-box;
+}
+
+.AboutBackInfoI1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #554B79;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.AboutBackInfoI2 {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #242230;
+}
+
+.AboutBackInfo2 {
+    width: 655.99px;
+}
+
+.AboutPlatform {
+    position: relative;
+    width: 1440px;
+    min-width: 100%;
+    left: 0px;
+    top: 575px;
+    background: #554B79;
+}
+
+.PlatformInfo {
+    position: relative;
+    width: 100%;
+    min-width: 999px;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 0;
+}
+
+.PlatformInfo1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    align-self: center;
+}
+
+.PlatformInfo2 {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+    align-self: center;
+    height: 124px;
+    width: 1000px;
+    padding: 19px 0;
+}
+
+.PlatformElipse {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.PlatformElipse>div {
+    position: relative;
+    width: 300px;
+    margin: 0 50px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.PlatformElipseImg {
+    position: relative;
+    background: url(lowsales.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 0 68.25px;
+    box-sizing: border-box;
+}
+
+.PlatformElipseIext {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.PlatformElipseIext2 {
+    margin: 13px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.AboutPlatformFooter {
+    position: relative;
+    min-width: 100%;
+    width: 1440px;
+    min-height: 484px;
+    left: 0px;
+    background: #242230;
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(AboutPFooter.svg);
+    background-repeat: no-repeat;
+}

@@ -153,11 +153,38 @@
 
 .PlatformElipseImg {
     position: relative;
-    background: url(lowsales.png);
-    background-repeat: no-repeat;
     height: 200px;
     margin: 0 68.25px;
     box-sizing: border-box;
+}
+.PEI1{
+    background: url(lowsales.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI2{
+    background: url(lowsales2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI3{
+    background: url(lowsales3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI4{
+    background: url(lowsales4.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI5{
+    background: url(lowsales5.png);
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
 .PlatformElipseIext {

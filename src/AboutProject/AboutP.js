@@ -32,27 +32,27 @@ const AboutP = () => {
                     </div>
                     <div className='PlatformElipse'>
                         <div>
-                            <div className='PlatformElipseImg' src={''}></div>
+                            <div className='PlatformElipseImg PEI1' src={''}></div>
                             <div className='PlatformElipseIext'>Недорогие</div>
                             <div className='PlatformElipseIext2'>платы относительно недороги по сравнению с другими платформами микроконтроллеров.</div>
                         </div>
                         <div>
-                            <div className='PlatformElipseImg' src={''}></div>
+                            <div className='PlatformElipseImg PEI2' src={''}></div>
                             <div className='PlatformElipseIext'>Кроссплатформенность</div>
                             <div className='PlatformElipseIext2'>программное обеспечение Arduino (IDE) работает в операционных системах Windows, OSX и Linux.</div>
                         </div>
                         <div>
-                            <div className='PlatformElipseImg' src={''}></div>
+                            <div className='PlatformElipseImg PEI3' src={''}></div>
                             <div className='PlatformElipseIext'>Простота</div>
                             <div className='PlatformElipseIext2'>программное обеспечение простое в использовании для начинающих, но гибкое для продвинутых пользователей</div>
                         </div>
                         <div>
-                            <div className='PlatformElipseImg' src={''}></div>
+                            <div className='PlatformElipseImg PEI4' src={''}></div>
                             <div className='PlatformElipseIext'>Исходный код</div>
                             <div className='PlatformElipseIext2'>Язык может быть расширен с помощью библиотек C ++. Для тех кто желает разобраться в технических деталях, могут перейти на язык программирования AVRC</div>
                         </div>
                         <div>
-                            <div className='PlatformElipseImg' src={''}></div>
+                            <div className='PlatformElipseImg PEI5' src={''}></div>
                             <div className='PlatformElipseIext'>Модули</div>
                             <div className='PlatformElipseIext2'>Открытый исходный код и расширяемое оборудование - схемы плат  по лицензии, поэтому опытные разработчики схем могут создавать свою версию, расширяя и улучшая ее.</div>
                         </div>

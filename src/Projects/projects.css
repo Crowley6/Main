@@ -365,7 +365,7 @@
     position: relative;
     min-width: 100%;
     width: 1440px;
-    height: 484px;
+    min-height: 484px;
     left: 0px;
     background: #242230;
     background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(footerImg.svg);

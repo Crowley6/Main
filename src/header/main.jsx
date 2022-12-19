@@ -1,4 +1,52 @@
-import './../Main/App.css';
+import React from 'react';
+import '../header/main.css';
+import proj1 from '../Pictures/proj1.svg';
+import proj2 from '../Pictures/proj2.svg';
+import proj3 from '../Pictures/proj3.svg';
+import proj4 from '../Pictures/proj4.png';
+
+let refMO = React.createRef();
+let refMO2 = React.createRef();
+let refMO3 = React.createRef();
+let refMO4 = React.createRef();
+
+const mOver = () => {
+  refMO.current.style.transition = 'width 0.15s, height 0.15s';
+  refMO.current.style.width = "600px";
+  refMO.current.style.height = "400px";
+}
+const mOut = () => {
+  refMO.current.style.width = "570px";
+  refMO.current.style.height = "360px";
+}
+const mOver2 = () => {
+  refMO2.current.style.transition = 'width 0.15s, height 0.15s';
+  refMO2.current.style.width = "600px";
+  refMO2.current.style.height = "400px";
+}
+const mOut2 = () => {
+  refMO2.current.style.width = "570px";
+  refMO2.current.style.height = "360px";
+}
+const mOver3 = () => {
+  refMO3.current.style.transition = 'width 0.15s, height 0.15s';
+  refMO3.current.style.width = "600px";
+  refMO3.current.style.height = "400px";
+}
+const mOut3 = () => {
+  refMO3.current.style.width = "570px";
+  refMO3.current.style.height = "360px";
+}
+const mOver4 = () => {
+  refMO4.current.style.transition = 'width 0.15s, height 0.15s';
+  refMO4.current.style.width = "600px";
+  refMO4.current.style.height = "400px";
+}
+const mOut4 = () => {
+  refMO4.current.style.width = "570px";
+  refMO4.current.style.height = "360px";
+}
+
 const Main = () => {
   return (
     <div>
@@ -39,14 +87,20 @@ const Main = () => {
       <div className='PItems'>
 
         <a>Примеры проектов</a>
-        <div>
-          <img className='proj1 imgPI' />
-          <img className='proj2 imgPI' />
-          <img className='proj3 imgPI' />
-          <img className='proj4 imgPI' />
-          <img className='proj5 imgPI' />
-          <div className='footer'>
-            <div className='footer_img'></div>
+        <div className='ItemI'>
+          <img className='imgPI' src={proj1} ref={refMO} onMouseOver={mOver} onMouseOut={mOut} />
+          <img className='imgPI' src={proj2} ref={refMO2} onMouseOver={mOver2} onMouseOut={mOut2} />
+          <img className='imgPI' src={proj3} ref={refMO3} onMouseOver={mOver3} onMouseOut={mOut3} />
+          <img className='imgPI' src={proj4} ref={refMO4} onMouseOver={mOver4} onMouseOut={mOut4} />
+          <div className='AboutPlatformFooter'>
+            <div></div>
+            <div className='FooterText'>
+              <div>© 2022 Программная Инженерия</div>
+              <div>
+                <div className='telegram'></div>
+                <div className='youtube'></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

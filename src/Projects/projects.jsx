@@ -4,7 +4,7 @@ import './projects.css';
 const Project = (props) => {
     return (
         <div className='Projects'>
-            <div className='ProjectsImg'></div> 
+            <div className='ProjectsImg'></div>
             <h1 className='ProjectsTextH1' >{props.ProjectsTextH1}</h1>
             <div className='ProjectsText'>{props.ProjectsText}</div>
             <button className='ProjectsButton'>Подробнее</button>
@@ -60,7 +60,16 @@ const Projects = (props) => {
                 </div>
                 <div className='AllProjects'>
                     {projectMap}
-                <div className='ProjectsFooter'></div>
+                    <div className='ProjectsFooter'>
+                        <div></div>
+                        <div className='FooterText'>
+                            <div>© 2022 Программная Инженерия</div>
+                            <div>
+                                <div className='telegram'></div>
+                                <div className='youtube'></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

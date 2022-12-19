@@ -56,9 +56,18 @@ const AboutP = () => {
                             <div className='PlatformElipseIext'>Модули</div>
                             <div className='PlatformElipseIext2'>Открытый исходный код и расширяемое оборудование - схемы плат  по лицензии, поэтому опытные разработчики схем могут создавать свою версию, расширяя и улучшая ее.</div>
                         </div>
-                        <div className='AboutPlatformFooter'></div>
+                        <div className='AboutPlatformFooter'>
+                            <div></div>
+                            <div className='FooterText'>
+                                <div>© 2022 Программная Инженерия</div>
+                                <div>
+                                    <div className='telegram'></div>
+                                    <div className='youtube'></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

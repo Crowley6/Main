@@ -38,12 +38,12 @@
     position: relative;
     width: 655.99px;
     height: 610.06px;
-    background-image: url(claxes.svg);
+    background-image: url(../Pictures/claxes.svg);
 }
 
 .AboutBack {
     position: relative;
-    background: url(AboutBackImg.svg);
+    background: url(../Pictures/AboutBackImg.svg);
     width: 1440px;
     height: 900px;
     min-width: 100%;
@@ -157,32 +157,33 @@
     margin: 0 68.25px;
     box-sizing: border-box;
 }
-.PEI1{
-    background: url(lowsales.png);
+
+.PEI1 {
+    background: url(../Pictures/lowsales.png);
     width: 100%;
     background-repeat: no-repeat;
 }
 
-.PEI2{
-    background: url(lowsales2.png);
+.PEI2 {
+    background: url(../Pictures/lowsales2.png);
     width: 100%;
     background-repeat: no-repeat;
 }
 
-.PEI3{
-    background: url(lowsales3.png);
+.PEI3 {
+    background: url(../Pictures/lowsales3.png);
     width: 100%;
     background-repeat: no-repeat;
 }
 
-.PEI4{
-    background: url(lowsales4.png);
+.PEI4 {
+    background: url(../Pictures/lowsales4.png);
     width: 100%;
     background-repeat: no-repeat;
 }
 
-.PEI5{
-    background: url(lowsales5.png);
+.PEI5 {
+    background: url(../Pictures/lowsales5.png);
     width: 100%;
     background-repeat: no-repeat;
 }
@@ -211,13 +212,54 @@
     color: #FFFFFF;
 }
 
+.footer_img {
+    position: absolute;
+    width: 80%;
+    height: 484px;
+    background: linear-gradient(269.99deg, #242230 10.47%, rgba(36, 34, 48, 0) 200.99%), url(../Pictures/footerImg.png);
+    background-repeat: no-repeat;
+}
+
 .AboutPlatformFooter {
-    position: relative;
     min-width: 100%;
-    width: 1440px;
     min-height: 484px;
     left: 0px;
-    background: #242230;
-    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(AboutPFooter.svg);
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/AboutPFooter.svg);
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterText {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.FooterText>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.telegram {
+    background: url(../Pictures/telegram.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+
+}
+
+.youtube {
+    background: url(../Pictures/youtube.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
 }

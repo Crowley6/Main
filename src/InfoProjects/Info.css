@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Abhaya Libre Medium';
+    src: url(../Fonts/abhayalibre_medium.ttf) format("woff2");
+}
+
 .infoHead {
     position: absolute;
     width: 100%;
@@ -28,11 +33,19 @@
     height: 450px;
 }
 
-.infoHeadImg>img {
+.infoHeadImg img {
     position: relative;
     margin: 0 -150px;
     border: 1px solid black;
     box-shadow: 0px 0px 10px grey;
+}
+
+.ismain {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 350px;
+    width: 100%;
 }
 
 .is1 {
@@ -43,6 +56,7 @@
     border-radius: 50%;
     padding: 12.5px;
     box-sizing: border-box;
+
 }
 
 .is2 {
@@ -59,20 +73,19 @@
 .ii1 {
     z-index: 1;
     width: 500px;
-    height: 348px;
+    height: 350px;
 }
 
 .ii2 {
     z-index: 2;
     width: 650px;
     height: 400px;
-    margin: auto 0;
 }
 
 .ii3 {
     z-index: 1;
     width: 500px;
-    height: 348px;
+    height: 350px;
 }
 
 .infoHeadLNF {
@@ -219,7 +232,7 @@
     margin-left: -480px;
 }
 
-.infoAWCVideo{
+.infoAWCVideo {
     position: relative;
     top: 570px;
     display: flex;

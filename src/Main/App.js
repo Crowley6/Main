@@ -3,6 +3,8 @@ import Main from './../header/main';
 import Projects from './../Projects/projects';
 import AboutP from './../AboutProject/AboutP';
 import Info from './../InfoProjects/Info';
+import '../Fonts/abhayalibre_medium.ttf';
+
 
 function App(props) {
   

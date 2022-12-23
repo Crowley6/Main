@@ -2,6 +2,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Main from './../header/main';
 import Projects from './../Projects/projects';
 import AboutP from './../AboutProject/AboutP';
+import Info from './../InfoProjects/Info';
 
 function App(props) {
   
@@ -24,8 +25,9 @@ function App(props) {
 
         <Routes>
           <Route path='/Main' element={<Main />} />
-          <Route path='/Projects' element={<Projects Backend={props.Backend.project} h1a={props.h1a.h1a} pushProject={props.pushProject} onChangeFunc={props.onChangeFunc} deleteProject={props.deleteProject} />} />
+          <Route path='/Projects' element={<Projects Backend={props.Backend.project} h1a={props.h1a.h1a}/>} />
           <Route path='/AboutP' element={<AboutP />}/>
+          <Route path='/Info' element={<Info />}/>
         </Routes>
       </div>
     </BrowserRouter>

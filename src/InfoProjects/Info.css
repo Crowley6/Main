@@ -1,0 +1,273 @@
+.infoHead {
+    position: absolute;
+    width: 100%;
+    top: 212.44px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoHeadH1 {
+    position: relative;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.infoHeadImg {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 450px;
+}
+
+.infoHeadImg>img {
+    position: relative;
+    margin: 0 -150px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.is1 {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.68);
+    z-index: 3;
+    border-radius: 50%;
+    padding: 12.5px;
+    box-sizing: border-box;
+}
+
+.is2 {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.68);
+    z-index: 3;
+    border-radius: 50%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    padding: 12.5px;
+    box-sizing: border-box;
+}
+
+.ii1 {
+    z-index: 1;
+    width: 500px;
+    height: 348px;
+}
+
+.ii2 {
+    z-index: 2;
+    width: 650px;
+    height: 400px;
+    margin: auto 0;
+}
+
+.ii3 {
+    z-index: 1;
+    width: 500px;
+    height: 348px;
+}
+
+.infoHeadLNF {
+    position: relative;
+    width: 195px;
+    height: 45px;
+    top: 250px;
+    margin-left: -850px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.InfoAboutProject {
+    position: absolute;
+    width: 100%;
+    height: 3049px;
+    top: 1215px;
+    background: #554B79;
+}
+
+.infoAbout {
+    top: 145px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoAboutH1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.infoAboutImg {
+    margin: 70px 0;
+    position: relative;
+    width: 960px;
+    height: 337px;
+}
+
+.InfoAboutModules {
+    display: flex;
+    position: relative;
+}
+
+.IAM1 {
+    margin: 0 25px;
+    position: relative;
+    width: 447px;
+    height: 156px;
+
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.IAM1 span {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.IAM2 {
+    margin: 0 25px;
+    padding: 25px;
+    position: relative;
+    width: 470px;
+    height: 397px;
+    background: #D6D2FA;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #242230;
+    box-sizing: border-box;
+}
+
+.infoAWCCode {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 270px;
+}
+
+.infoAWCH1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.infoAWCCode iframe {
+    position: relative;
+    top: 85px;
+    width: 963px;
+    height: 796px;
+    background: #D6D2FA;
+}
+
+.infoAWCText {
+    position: relative;
+    top: 470px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: -480px;
+}
+
+.infoAWCVideo{
+    position: relative;
+    top: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoFooter {
+    margin-top: 38.8px;
+    position: relative;
+    min-width: 100%;
+    min-height: 484px;
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/AboutPFooter.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterText {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.FooterText>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.telegram {
+    background: url(../Pictures/telegram.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+
+}
+
+.youtube {
+    background: url(../Pictures/youtube.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}

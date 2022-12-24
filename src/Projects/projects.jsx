@@ -1,14 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './projects.css';
+import { Navigate } from 'react-router-dom';
 
 
 const Project = (props) => {
+    const [redirect, setRedirect] = useState(false);
+    const [data, setData] = useState();
+
+    const handleClick = e => {
+        e.preventDefault();
+        setRedirect(true);
+        setData(props.ProjectsAllInfo);
+        console.log(data);
+    }
+    if (redirect)
+        return <Navigate to={{ pathname: '/Info' }} state={{ data }} />
+
+
     return (
         <div className='Projects'>
-            <img className='ProjectsImg' src={props.ProjectsImg}/>
+            <img className='ProjectsImg' src={props.ProjectsImg} alt={"imageProject"}/>
             <h1 className='ProjectsTextH1' >{props.ProjectsTextH1}</h1>
             <div className='ProjectsText'>{props.ProjectsText}</div>
-            <a href="/Info"><button className='ProjectsButton'>Подробнее</button></a>
+            <button className='ProjectsButton' onClick={handleClick}>Подробнее</button>
         </div>
     )
 }
@@ -17,7 +31,7 @@ const Project = (props) => {
 
 const Projects = (props) => {
 
-    let projectMap = props.Backend.map(mapProject => <Project ProjectsImg={mapProject.ProjectsImg} ProjectsTextH1={mapProject.ProjectsTextH1} ProjectsText={mapProject.ProjectsText} ProjectsButton={mapProject.ProjectsButton} />);
+    let projectMap = props.Backend.map(mapProject => <Project ProjectsImg={mapProject.ProjectsImg} ProjectsTextH1={mapProject.ProjectsTextH1} ProjectsText={mapProject.ProjectsText} ProjectsButton={mapProject.ProjectsButton} ProjectsAllInfo={mapProject.ProjectsAllInfo} />);
 
     // let pushProject = () => {
     //     props.pushProject();

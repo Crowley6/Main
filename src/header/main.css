@@ -206,12 +206,12 @@
 }
 
 .Arduino_info {
-    position: sticky;
+    position: absolute;
     width: 515px;
     height: 515px;
     left: 135px;
     top: 278px;
-    background: #D6D2FA;
+    /*background: #D6D2FA;*/
     border-radius: 10px;
 }
 

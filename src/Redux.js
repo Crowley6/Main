@@ -36,7 +36,6 @@ export const getAllProject = async (item) => {
     let response = await request_host({ url: "projects", item: item })
     if (response.status === "success") {
         for (let i = 0; i < response.data.length; i++) {
-            console.log(response.data[i])
             Backend.project.push({
                 ProjectsImg: response.data[i].images_id[0],
                 ProjectsTextH1: response.data[i].whoDid,
